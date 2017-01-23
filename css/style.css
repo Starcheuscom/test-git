@@ -1,0 +1,416 @@
+/* general */
+.clearfix::after,
+.service-icons::after,
+.container-contacts::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+html {
+	width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+	width: 950px;
+	margin: 0 auto;
+}
+.title{
+	color: #000;
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+}
+.title::after{
+	content: '';
+	display: block;
+	width: 42px;
+	height: 2px;
+	background-color: #d55727;
+	margin: 27px auto 0;
+}
+
+/* top */
+
+row::after {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+
+
+.background {
+	text-align: center;	
+	background-repeat: none;
+	width: 100%;
+}
+
+.cheshirskaya {
+	width: 400px;
+	height: 225px;
+}
+
+.logo {
+	text-align: center;
+	margin-top: -449px;
+	z-index: 15;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+ul {
+	
+	list-style-type: none;
+}
+
+.menu {
+	text-align: center;
+	line-height: 36px;
+	margin-top: 218px;
+	background-color: #36b7b3;
+	text-align: center;
+}
+
+.menu__item {
+		position: relative;
+		display: inline-block;
+		color: white;
+		background: #36b7b3;
+		margin: 0;
+	}
+
+	.menu__item a {
+		display: block;
+		padding: 13px 13px;
+	}
+
+	.menu__item:hover{
+		
+		color: white;
+		background: #d55727;
+		}
+
+/* about */
+
+.about {
+	background-color: #fff;
+	margin-bottom: -425px;
+	padding-top: 73px;
+}
+
+.about-me-description {
+	float: left;
+	width: 287px;
+	padding-top: 99px;
+	padding-left: 64px;
+	/* Style for "Leonardo d" */
+	height: 230px;
+	color: #000;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.about-me-img {
+	position: relative;
+	left: 407px;
+	top: -374px;
+}
+
+/* services */
+
+.services {
+	background-color: #f8f8f8;
+	padding: 5% 0;
+}
+
+.service-point {
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding-top: 64px;
+}
+
+.spimg {
+	width: 63px;
+	height: 63px;
+}
+
+.service-point > p {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 14px;
+	text-transform: uppercase;
+	padding-top: 36px;
+}
+
+/* timeline */
+
+.timeline {
+	background-image: url(../img/timeline.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.timeline-div {
+	text-align: center;
+	padding: 2%;
+}
+
+
+/* portfolio */
+
+.portfolio{
+	font-size: 0;
+	padding: 5% 0;
+}
+	.portfolio-list{
+		width: 100%;
+		padding-top: 63px;
+	}	
+
+		.portfolio .item{
+            position: relative;
+            display: inline-block;
+            width: 33.33%;
+            padding-top: 22%;
+            overflow: hidden;
+		}
+		.portfolio img{
+			width: 100%;
+			position: absolute;
+			top: 0;
+		}
+
+.portfolio-list::after {
+	content: '';
+    border: 15px solid transparent;
+    border-top: 20px solid #d55727;
+    width: 0;
+    display: block;
+    height: 0;
+    margin: 20px auto 0;
+		
+}
+
+/* clients */
+
+.clients-list {
+	margin-top: 54px;
+	font-size: 0;
+} 
+
+.clients-list-item {
+	width: 24.33%;
+	display: inline-block;
+	margin: 0 4.5% 45px;
+	vertical-align: middle;
+}
+
+/* contact */
+
+.container-contacts
+{
+	width: 950px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.contacts
+{
+	background-image: url(../img/contact_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 0;
+}
+
+.title-con
+{
+
+	color: #fff;
+}
+
+.title::after{
+	content: '';
+	display: block;
+	width: 42px;
+	height: 2px;
+	background-color: #d55727;
+	margin: 50px auto 0;
+}
+.forms
+{
+		width: 40%;
+	float: left;
+	margin-top: 70px;
+
+
+}
+.form
+{
+
+	margin-left: 40px;
+}
+input[type="text"]
+{
+	border: 1px solid darkorange;
+	background: rgba(128,128,128,0.5);
+  	height: 34px;  
+    width: 350px;
+    color: #fff; 
+    font-size: 11px;
+    margin-bottom: 30px;
+    font-size: 15px;
+
+}
+
+
+input[type="text2"]
+{
+	border: 1px solid darkorange;
+	background: rgba(128,128,128,0.5);
+  	height: 104px;  
+    width: 350px;
+    color: #fff; 
+    font-size: 11px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 10px;
+	padding-left: 10px;
+	
+	
+}
+input
+{
+	line-height: 10px;
+	padding-left: 10px;
+}
+
+textarea[type="text2"]
+{
+	border: 1px solid darkorange;
+	background: rgba(128,128,128,0.5);
+  	height: 94px;  
+    width: 350px;
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.form button
+{
+	background-color: rgba(255,165,0,0.8);
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border: 0;
+}
+.form button:hover
+{
+ 	background-color: #fff;
+	color: darkorange;	
+}
+.descriptions
+{
+	float: right;
+	width: 40%;
+	margin-top: 53px;
+
+}
+.mail
+{
+	width: 40px;
+	margin-bottom: 30px;
+}
+
+.mail img
+
+	{   
+    vertical-align:middle;
+    padding-right: 20px;
+     }
+
+
+/* footer */
+
+.footer {
+	background-color: #d55727;
+}
+
+.footer-images {
+	text-align: center;
+	padding: 2%;
+}
+
+.a-footer-img {
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 41px;
+	height: 35px;
+	margin: 0 2%;
+}
+
+.footer-1 {
+	background-image: url(../img/ico_Be.png);
+}
+.footer-1::before {
+	content: '';
+	background-image: url(../img/ico_Be_hover.png);
+}
+.footer-1:hover {
+	background-image: url(../img/ico_Be_hover.png);
+}
+
+.footer-2 {
+	background-image: url(../img/ico_fb.png);
+}
+.footer-2::before {
+	content: '';
+	background-image: url(../img/ico_fb_hover.png);
+}
+.footer-2:hover {
+	background-image: url(../img/ico_fb_hover.png);
+}
+
+.footer-3 {
+	background-image: url(../img/ico_youtube.png);
+}
+.footer-3::before{
+	content: '';
+	background-image: url(../img/ico_youtube_hover.png);
+}
+.footer-3:hover {
+	background-image: url(../img/ico_youtube_hover.png);
+}
+
+.footer-4 {
+	background-image: url(../img/ico_insta.png);
+}
+.footer-4::before {
+	content: '';
+	background-image: url(../img/ico_insta_hover.png);
+}
+.footer-4:hover {
+	background-image: url(../img/ico_insta_hover.png);
+}
